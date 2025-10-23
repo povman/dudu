@@ -1,12 +1,164 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta charset="utf-8">
-    <title>Teste</title>
-  </head>
-  <body>
-    <header></header>
-    <main>Conte&uacute;do</main>
-    <footer></footer>
-  </body>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Ana Clara Rodrigues (Fictício)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+        }
+        .curriculum-container {
+            width: 100%;
+            max-width: 800px;
+            background-color: #fff;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            color: #333;
+            font-size: 2.2em;
+        }
+        .contact-info {
+            text-align: center;
+            font-size: 0.9em;
+            color: #555;
+            margin-top: 5px;
+        }
+        .section-title {
+            color: #4a75a8; /* Cor principal */
+            font-size: 1.4em;
+            border-bottom: 1px solid #4a75a8;
+            padding-bottom: 5px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        .experience-item, .education-item {
+            margin-bottom: 15px;
+        }
+        .experience-item h3, .education-item h3 {
+            margin: 0;
+            font-size: 1.1em;
+            color: #333;
+        }
+        .experience-item p, .education-item p {
+            margin: 0;
+            font-size: 0.9em;
+            color: #666;
+        }
+        .description ul {
+            padding-left: 20px;
+            margin-top: 5px;
+        }
+        .description li {
+            margin-bottom: 5px;
+            font-size: 0.95em;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            padding: 0;
+        }
+        .skills-list li {
+            background-color: #eee;
+            color: #333;
+            padding: 5px 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+<div class="curriculum-container">
+
+    <div class="header">
+        <h1>ANA CLARA RODRIGUES</h1>
+        <div class="contact-info">
+            Lisboa, Portugal | +351 912 345 678 | ana.rodrigues.dev@emailfake.com | [Perfil do LinkedIn Fictício]
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Resumo Profissional</h2>
+        <p>Profissional de Marketing Digital com 5 anos de experiência comprovada em gestão de campanhas PPC e otimização de SEO. Especializada em funis de conversão, análise de dados e implementação de estratégias de *Inbound Marketing* para impulsionar o crescimento e o Retorno sobre o Investimento (ROI) do negócio.</p>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Experiência Profissional</h2>
+
+        <div class="experience-item">
+            <h3>Especialista em Marketing Sênior</h3>
+            <p><strong>TechSolutions, S.A.</strong> | Janeiro/2022 – Atual</p>
+            <div class="description">
+                <ul>
+                    <li>Gerenciamento e otimização de um orçamento mensal de **€50.000** em campanhas digitais (Google Ads, Facebook Ads).</li>
+                    <li>Lançamento bem-sucedido de 10 novos produtos digitais, alcançando um **ROI médio de 300%** no primeiro ano.</li>
+                    <li>Liderança da estratégia de SEO, resultando na conquista da primeira página do Google para 5 palavras-chave de alto valor.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <h3>Analista de Marketing Júnior</h3>
+            <p><strong>GlobalCom Lda.</strong> | Julho/2019 – Dezembro/2021</p>
+            <div class="description">
+                <ul>
+                    <li>Criação e monitorização de relatórios de desempenho semanais e mensais, identificando *insights* para a gerência.</li>
+                    <li>Apoio na execução e segmentação de campanhas de e-mail marketing, aumentando a taxa de abertura em 20%.</li>
+                    <li>Realização de análise competitiva e de mercado para identificar novas oportunidades de crescimento.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Formação Acadêmica</h2>
+
+        <div class="education-item">
+            <h3>Mestrado em Comunicação e Marketing</h3>
+            <p><strong>Universidade Fictícia de Lisboa</strong> | Conclusão: 2018</p>
+        </div>
+
+        <div class="education-item">
+            <h3>Licenciatura em Relações Públicas</h3>
+            <p><strong>Instituto Politécnico do Porto (Fictício)</strong> | Conclusão: 2016</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Habilidades</h2>
+        <ul class="skills-list">
+            <li>SEO Avançado</li>
+            <li>Google Ads (Certificada)</li>
+            <li>Facebook/Instagram Ads</li>
+            <li>Google Analytics 4</li>
+            <li>Data Studio/Looker Studio</li>
+            <li>E-mail Marketing</li>
+            <li>HTML/CSS (Básico)</li>
+            <li>Inglês (Fluente)</li>
+            <li>Espanhol (Intermédio)</li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
 </html>
